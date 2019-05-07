@@ -3,8 +3,8 @@ import {Link} from 'react-router-dom';
 
 const ExpenseListItem = ({id, desc, note, amount, createdAt}) => (
   
-  <Link style={{textDecoration: 'none', color: 'black'}} to={`/edit/${id}`}>
-    <div className="expense-list-item">
+  <Link style={{textDecoration: 'none'}} to={`/edit/${id}`}>
+    <div className="expense-list-item--text-content">
       <h4>Desc: {desc}</h4>
       <h5>Amount: {amount}</h5>
       <p>

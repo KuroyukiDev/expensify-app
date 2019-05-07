@@ -5,7 +5,7 @@ import selectExpenses from '../selectors/expenses';
 
 const ExpenseList = (props) => (
   <div>
-    <h1>Expense List</h1>
+    <h1 className="title-text">Expense List</h1>
     <hr/>
     {props.expenses.map((
       expense) => (
