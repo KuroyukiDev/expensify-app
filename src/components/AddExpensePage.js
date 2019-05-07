@@ -5,7 +5,7 @@ import { addExpense } from '../actions/expenses';
 
 const AddExpensePage = (props) => (
   <div>
-    <h1>Add New Expense</h1>
+    <h1 className="title-text">Add New Expense</h1>
     <ExpenseForm
       onFormSubmit={(expense) => {
         console.log(expense);

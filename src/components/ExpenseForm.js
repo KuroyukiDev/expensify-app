@@ -3,9 +3,9 @@ import moment from 'moment';
 import { SingleDatePicker } from 'react-dates';
 import 'react-dates/lib/css/_datepicker.css';
 
-const now = moment();
-now.locale('ja');
-console.log(now.format('YYYY年 MMM Do (ddd)'));
+// const now = moment();
+// now.locale('ja');
+// console.log(now.format('YYYY年 MMM Do (ddd)'));
 
 class ExpenseForm extends Component {
   constructor(props) {
@@ -132,7 +132,7 @@ class ExpenseForm extends Component {
               
             </div>
             <div className="col-xs-6">
-              <h4 className="text-left">
+              <h4 className="text-left title-text">
                 Set Date:
               </h4>
               <SingleDatePicker
@@ -164,14 +164,13 @@ class ExpenseForm extends Component {
             </div>
           </div>
           <br/>
-          <br/>
-          <button>
+          <button
+            className="btn btn-primary"
+          >
             Add Expense
           </button>
         </form>
-        
-        ExpenseForm
-        
+        <br/>
       </div>
     );
   }

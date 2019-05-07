@@ -6,7 +6,7 @@ import {editExpense, removeExpense} from '../actions/expenses';
 const EditExpensePage = (props) => {
   return (
     <div>
-      <h1>Add New Expense</h1>
+      <h1 className="title-text">Add New Expense</h1>
       <ExpenseForm
         expense={props.expense}
         onFormSubmit={(expense) => {
@@ -22,6 +22,7 @@ const EditExpensePage = (props) => {
           props.dispatch(removeExpense({id: props.expense.id}));
           props.history.push('/');
         }}
+        className="btn btn-danger"
       >
         Remove
       </button>
