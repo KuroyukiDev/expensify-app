@@ -1,9 +1,9 @@
 html {
   font-size: 62.5%; // 1rem = 16px; 16px * 0.625 = 10px;
-
 }
 
 body {
+  
   //background: whitesmoke;
   //background: rgb(111,9,164);
   //background: -moz-linear-gradient(160deg, rgba(111,9,164,1) 13%, rgba(56,56,190,1) 64%, rgba(0,212,255,1) 100%) no-repeat center center fixed;
@@ -11,15 +11,13 @@ body {
   //background: linear-gradient(160deg, rgba(111,9,164,1) 13%, rgba(56,56,190,1) 64%, rgba(0,212,255,1) 100%) no-repeat center center fixed;
   //filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#6f09a4",endColorstr="#00d4ff",GradientType=1);
   //
-  //background: rgb(54,0,51);
-  background: -moz-linear-gradient(132deg, rgba(54,0,51,1) 16%, rgba(11,135,147,1) 64%) no-repeat center center fixed;
-  background: -webkit-linear-gradient(132deg, rgba(54,0,51,1) 16%, rgba(11,135,147,1) 64%) no-repeat center center fixed;
+  background: rgb(54,0,51);
   background: linear-gradient(132deg, rgba(54,0,51,1) 16%, rgba(11,135,147,1) 64%) no-repeat center center fixed;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#360033",endColorstr="#0b8793",GradientType=1);
+  
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
-  background-size: cover;              /* optional, center the image */
+  
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: $m-size;
 }
